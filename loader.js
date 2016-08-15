@@ -198,7 +198,7 @@ function getPorts() {
 		process.exit();
 	}
 	var urlObject = url.parse(_url);
-	var port = nconf.get('port') || nconf.get('PORT') || urlObject.port || 4567;
+	var port = process.env.PORT || nconf.get('port') || nconf.get('PORT') || urlObject.port || 4567;
 	if (!Array.isArray(port)) {
 		port = [port];
 	}
