@@ -1,0 +1,13 @@
+{
+    "url": "http://localhost:4567",
+    "secret": "62bd9bc3-5346-4c75-89ea-ba0c2f8fccb1",
+    "database": "mongo",
+    "port": 4567,
+    "mongo": {
+        "host": "ds161245.mlab.com",
+        "port": "61245",
+        "username": "brickandcyberadmin",
+        "password": "Star#2016",
+        "database": "heroku_4k75jswx"
+    }
+}
